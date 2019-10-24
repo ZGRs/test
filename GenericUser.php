@@ -10,7 +10,7 @@ class GenericUser implements UserContract
      * All of the user's attributes.
      *
      * @var array
-     */
+     */  
     protected $attributes;
 
     /**
@@ -118,5 +118,8 @@ class GenericUser implements UserContract
     public function __unset($key)
     {
         unset($this->attributes[$key]);
+    }
+    public function a(){
+        
     }
 }
